@@ -102,29 +102,21 @@ nav ul li a:hover {
     padding: 10rem 8rem;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 #banner-img {
     display: block;
     margin: 0 auto;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
-#header h1 {
-
-    background: linear-gradient(to right, #7B3AEC, #CAFF2B);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    text-align: center;
-	margin: 0 auto;
-	display: inline-block;
-	padding: 8px;
-    font-size: 100px;
-
-    width: 100%;
-    white-space: normal;
-	overflow: hidden;
-	animation: 
-		typing 2s steps(20),
-		cursor .4s step-end infinite alternate;
-}
 
 #main2 {
     background: url("main2-background.svg");
