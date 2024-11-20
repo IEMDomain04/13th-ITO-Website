@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body, html {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    scroll-behavior: smooth;
+}
+
+nav {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(15, 29, 78, 0);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+}
+
+/* Logo */
+nav .logo img {
+    height: 80px;
+}
+
+/* Menu Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: color .5s ease, border-color .5s ease;
+}
+
+
+
+nav ul li a:hover {
+    color: #CAFF2B;
+    border-color: #CAFF2B;
+}
+
+
+
+/* Hamburger Menu */
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:checked ~ .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgba(15, 29, 78, 1);
+    width: 100%;
+    padding: 1rem 0;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+
+#divider {
+    width: 100%;
+}
+
+#header {
+    background: url("about-header-background.svg");
+    background-size: cover;
+    padding: 10rem;
+}
+
+#main {
+    background: url("main1-background.svg");
+    background-size: cover;
+    margin-top: -10px;
+    padding: 10rem 8rem;
+}
+
+#banner-img {
+    display: block;
+    margin: 0 auto;
+}
+
+#header h1 {
+
+    background: linear-gradient(to right, #7B3AEC, #CAFF2B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 8px;
+    font-size: 100px;
+
+    width: 100%;
+    white-space: normal;
+	overflow: hidden;
+	animation: 
+		typing 2s steps(20),
+		cursor .4s step-end infinite alternate;
+}
+
+#main2 {
+    background: url("main2-background.svg");
+    background-size: cover;
+    margin-top: -10px;
+    padding: 10rem 8rem;
+}
+
+#main2 h3 {
+    color: white;
+}
+
+#main2 #main-contents {
+    margin-bottom: 20rem;
+}
+
+#main2 #main-title {
+    font-size: 50px;
+}
+
+#main2 #main-subtitle {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+
+#main-contents2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15rem;
+}
+
+#annual-img {
+    width: 40%;
+}
+
+#texts {
+    text-align: left;
+    width: 48%;
+    margin-left: 5rem;
+}
+
+#main-title2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#main-subtitle2 {
+    font-size: 20px;
+    color: #959595;
+    margin-bottom: 30px;
+}
+
+#main-buttons {
+    background: #CAFF2B;
+    font-weight: bold;
+    color: black;
+    padding: 15px 40px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+
+
+
+
+#main-contents {
+    text-align: center;
+}
+
+#icons {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+#main-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+#main-subtitle {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #959595;
+    margin-bottom: 30px;
+}
+
+
+#ccis {
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Footer Styles */
+#footer-section {
+    background: url("../footer-background.svg");
+    padding: 10rem 1rem;
+    margin-top: -10px;
+    color: #fff;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.contact1 {
+    margin-bottom: 2rem;
+}
+
+#footer-imgs {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.imgs {
+    width: 5%;
+}
+
+#footer-nav a {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#footer-nav a:hover {
+    color: #CAFF2B;
+}
+
+#copyright {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav .logo img {
+        height: 60px;
+    }    
+
+    .menu-icon {
+        display: block;
+    }
+
+    nav {
+        background: rgba(15, 29, 78, 0.9);
+    }
+}
