@@ -182,9 +182,9 @@ nav ul li a:hover {
 
 #sponsor-subtitle {
     font-size: 20px;
-    font-weight: lighter;
     margin-bottom: 50px;
     color: #959595;
+    font-weight: 400;
 }
 
 #sponsor-wrapper {
@@ -225,9 +225,9 @@ nav ul li a:hover {
 
 #main-subtitle {
     font-size: 20px;
-    font-weight: lighter;
     color: #959595;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 #main-buttons {
@@ -274,6 +274,7 @@ nav ul li a:hover {
     font-size: 20px;
     color: #959595;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 
@@ -448,7 +449,6 @@ nav ul li a:hover {
 
     #sponsor-subtitle {
         font-size: 20px;
-        font-weight: lighter;
         margin-bottom: 50px;
         color: #959595;
     }
@@ -464,7 +464,6 @@ nav ul li a:hover {
 
 
     #main {
-        background-position: center;
         margin-top: -10px;
         padding: 5rem 2rem;
     }
@@ -487,7 +486,6 @@ nav ul li a:hover {
 
     #main-subtitle {
         font-size: 15px;
-        font-weight: lighter;
         color: #959595;
         margin-bottom: 30px;
     }
