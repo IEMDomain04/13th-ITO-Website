@@ -6,10 +6,8 @@
     color: white;
 }
 
-body,
-html {
+body, html {
     overflow-x: hidden;
-    /* Prevent horizontal scroll */
     scroll-behavior: smooth;
 }
 
@@ -90,6 +88,8 @@ nav ul li a:hover {
 
 
 
+
+
 /* HEADER */
 #header {
     background: url("home-header-background.svg");
@@ -135,24 +135,27 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 80px;
     color: #939CB6;
-    animation: fadeIn 3s ease-in-out;
+    animation: fadeUp 2s ease-in-out;
 }
 
-@keyframes fadeIn {
+@keyframes fadeUp {
     from {
         opacity: 0;
+        transform: translateY(20px); /* Start 20px below */
     }
     to {
         opacity: 1;
+        transform: translateY(0); /* End at normal position */
     }
 }
+
 
 #btn {
     padding: 20px 60px;
     font-weight: bold;
     border-radius: 10px;
     background: #7B3AEC;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeUp 2.5s ease-in-out;
 }
 
 #span-title {
@@ -160,6 +163,7 @@ nav ul li a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
 
@@ -191,6 +195,9 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+
 
 
 
@@ -324,6 +331,7 @@ nav ul li a:hover {
     font-size: 1rem;
     text-align: center;
 }
+
 
 
 

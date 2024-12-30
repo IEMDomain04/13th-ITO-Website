@@ -1,7 +1,7 @@
 <svg width="1280" height="1124" viewBox="0 0 1280 1124" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_156_104)">
 <rect width="1286" height="1124" transform="translate(-5)" fill="#0F1D4E"/>
-<g opacity="0.5">
+<g opacity="0.3">
 <path d="M-5 972.894V974H-3.7725V972.894H-5Z" fill="white"/>
 <path d="M-5 950.783V951.889H-3.7725V950.783H-5Z" fill="white"/>
 <path d="M-5 928.672V929.777H-3.7725V928.672H-5Z" fill="white"/>
@@ -467,7 +467,7 @@
 <g opacity="0.5" filter="url(#filter1_f_156_104)">
 <circle cx="231" cy="562" r="300" fill="#7B3AEC"/>
 </g>
-<g opacity="0.5">
+<g opacity="0.3">
 <path d="M531 424.894V426H532.061V424.894H531Z" fill="white"/>
 <path d="M531 402.783V403.889H532.061V402.783H531Z" fill="white"/>
 <path d="M531 380.672V381.777H532.061V380.672H531Z" fill="white"/>
